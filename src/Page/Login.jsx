@@ -5,7 +5,6 @@ function Login() {
   return (
     <div>
           <div class="form">
-      {/* <div class="title">Welcome</div> */}
       <div class="subtitle">Let's create your account!</div>
       <div class="input-container ic1">
         <input id="firstname" class="input" type="text" placeholder=" " />
