@@ -1,0 +1,21 @@
+.nav-top-bar{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-title{
+    text-align: center;
+    padding: 20px;
+    background-color: #9d0000;
+    color: white;
+}
+
+.home-heading{
+    margin-inline: 500px;
+    background-color: #282eff;
+    color: white;
+    margin-top: -12px;
+}

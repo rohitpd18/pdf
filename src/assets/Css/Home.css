@@ -1,0 +1,10 @@
+.home-heading{
+    text-align: center;
+    padding: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

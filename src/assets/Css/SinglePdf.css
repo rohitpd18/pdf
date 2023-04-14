@@ -1,0 +1,32 @@
+.single-pdf{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+}
+
+.details{
+    display: flex;
+    margin-top: 40px;
+}
+
+.details-items{
+    width: 50%;
+}
+
+.details-item{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pdf-img img{
+    padding-inline-start: 40px;
+
+    height: 400px;
+    width: 300px;
+}
+
+.download-section{
+    margin-top: 50px;
+}
