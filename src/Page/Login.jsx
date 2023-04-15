@@ -1,9 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../assets/Css/Login.css"
-
+import axios from "../axios";
 function Login() {
+
+  const [pdf, setPdf] = useState([]);
+
+  const fectchPdf = async () => {
+    const res = await axios.get("/api/create");
+    const data = res.data.data.create;
+// console.log(data);
+    setPdf(data);
+  };
+
+  useEffect(() => {
+    fectchPdf();
+  }, []);
+
   return (
     <div>
+
+{pdf.map((ele) => {
+          return (<div>
+            <div>{ele.title}</div>
+            <div dangerouslySetInnerHTML={{ __html: ele.value }} />
+            </div>
+            );
+        })}
+
+
+
+
           <div class="form">
       <div class="subtitle">Let's create your account!</div>
       <div class="input-container ic1">
