@@ -40,6 +40,7 @@ function Create() {
     [{align:[false,"right","center"]}],
     [{color:[false,"red","green","yellow","blue",]}]
     ],
+    table: true 
   };
 
   
